@@ -1,0 +1,26 @@
+export const calls = [
+  {
+    id: 1,
+    caller: "Caller 001",
+    transcript: "Mera balance kitna reh gaya hai?",
+    language: "code-switched",
+    intent: "balance",
+    confidence: 0.93,
+    sentiment: "neutral",
+    escalated: false,
+    escalationReason: null,
+    summary: null,
+  },
+  {
+    id: 2,
+    caller: "Caller 002",
+    transcript: "Meri SIM block ho gayi hai, teesri dafa call kar raha hoon",
+    language: "code-switched",
+    intent: "sim",
+    confidence: 0.54,
+    sentiment: "angry",
+    escalated: true,
+    escalationReason: "Low confidence + repeated complaint + negative sentiment",
+    summary: "SIM blocked, third call about it, caller frustrated. Steps tried: SIM status check.",
+  },
+]
