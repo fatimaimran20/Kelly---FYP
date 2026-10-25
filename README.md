@@ -4,8 +4,8 @@ A self-improving code-switched Urdu–English voice assistant with learned escal
 
 ## Team
 - Fatima Imran
-- [Member 2]
-- [Member 3]
+- Malaika Dar
+- Muhammad Saad Ahmed
 
 ## Project structure
 - `frontend/`: React + Vite + Tailwind web app (dashboard, call simulator, escalation queue)
